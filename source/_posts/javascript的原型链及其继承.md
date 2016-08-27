@@ -1,7 +1,7 @@
 ---
 title: javascript的对象构造和原型链继承
 date: 2016-04-14 17:55:58
-tags: [javascript,原型链,继承]
+tags: [javascript]
 description: javascript的对象构造和原型链继承
 ---
 这两天仔细地学习了JS的创建对象以及继承的方法，结合红宝石书整理了下笔记。
@@ -14,12 +14,12 @@ Javascript作为一种动态的面向对象语言，本身却没有类的概念�
 **问题**：使用对象字面量的方法创建的对象，若重复创建会产生大量的重复代码
 ```
 var o = new Object();
-o.name = shudery;
+o.name = 'shudery';
 o.skill = function(){console.log('sayHello')};
 //这是比较老的方法，一般用下面这种简单粗暴的，直接字面量创建
 
 var obj = {
-    sex = man,
+    sex = 'man',
     skill = function(){console.log('tucao')} 
     ...
 }
@@ -129,7 +129,7 @@ var obj =  new Myobj('shudery',22);
 ```
 如此一来对象就拥有自定义的属性和可共享复用的方法啦
 有句话这样说，当我们把程序中变化的部分封装好之后，剩下的就是稳定可复用的了
-这也是很多多种设计模式里推崇的，放到创建对象的方法里也是一样的做法。
+这也是很多种设计模式里推崇的，放到创建对象的方法里也是一样的做法。
 
 说完对象的创建，接下来是继承~
 JS是没有类的关键字和概念的，它的继承是基于原型链的，类似上面的原型模式
