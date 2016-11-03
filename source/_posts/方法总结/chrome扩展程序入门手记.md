@@ -1,8 +1,9 @@
 ---
 title: chrome扩展程序入门手记
 date: 2016-06-14 23:08:15
-tags: [javascript,chrome]
+tags: [JavaScript]
 description: share my record after learning how to build a plugin for chrome.
+categories: 方法总结
 ---
 chrome是我非常喜欢的浏览器，它除了速度飞快，对前端代码支持友好的优点外，
 还有非常丰富的扩展程序资源，提供了大量方便强大的web页面应用插件

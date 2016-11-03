@@ -4,7 +4,8 @@
 
 # Site
 title: Daguo's blog
-subtitle: 'Hi guys, welcome!'
+# subtitle: '欢迎来到，林秀达的个人博客'
+subtitle: 'Hello guy, welcome!'
 description: 'Personal blog which build by hexo from shudery/daguo'
 author: Daguo
 language:
@@ -63,7 +64,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: yilia
+theme: aero-dual
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html

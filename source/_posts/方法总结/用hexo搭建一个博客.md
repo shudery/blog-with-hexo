@@ -1,8 +1,9 @@
 ---
 title: 用hexo搭建一个博客
 date: 2016-05-05 12:00:33
-tags: [hexo,node,git]
+tags: [教程]
 description: 如何用hexo来搭建一个博客
+categories: 方法总结
 ---
 hexo出自一位台湾大学生之手，是如今搭建，管理博客，发布文章的非常好用的工具，
 之前一直想搭建一个不依赖后台，便于管理和发布的博客，在朋友推荐下用了hexo

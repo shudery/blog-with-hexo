@@ -1,8 +1,9 @@
 ---
 title: Javascript开发跨平台桌面app
 date: 2016-06-23 23:32:17
-tags: [javascript,node]
+tags: [JavaScript]
 description: develop cross-platform GUI app with electron
+categories: 程序员
 ---
 electron原本是atom shell的项目，由于集成node丰富的本地系统级API，
 提供了与操作系统交互的功能，所以归结起来，现在javascrpit的技术栈之所以如此宽广，

@@ -1,8 +1,10 @@
 ---
-title: 最近的npm模块风波
+title: 说说最近的npm模块风波
 date: 2016-04-04 17:53:38
-tags: [npm,modules]
+tags: [随笔]
 description: npm导致我们不会写代码了？
+categories: 随笔
+
 ---
 最近，前端圈子有件事闹得沸沸扬扬，有一个叫做`leftpad`的npm模块被作者撤下，
 导致一系列引用该模板的项目出现问题。

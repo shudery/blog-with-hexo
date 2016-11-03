@@ -1,8 +1,9 @@
 ---
 title: javascript的对象构造和原型链继承
 date: 2016-04-14 17:55:58
-tags: [javascript]
+tags: [JavaScript]
 description: javascript的对象构造和原型链继承
+categories: 学习感悟
 ---
 这两天仔细地学习了JS的创建对象以及继承的方法，结合红宝石书整理了下笔记。
 （红宝石这里讲了非常多的模式，看第一遍觉得还蛮乱的）
@@ -17,7 +18,6 @@ var o = new Object();
 o.name = 'shudery';
 o.skill = function(){console.log('sayHello')};
 //这是比较老的方法，一般用下面这种简单粗暴的，直接字面量创建
-
 var obj = {
     sex = 'man',
     skill = function(){console.log('tucao')} 

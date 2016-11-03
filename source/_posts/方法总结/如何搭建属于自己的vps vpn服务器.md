@@ -1,8 +1,9 @@
 ---
 title: 搭建属于自己的vpn服务器
 date: 2016-06-10 21:59:48
-tags: [vpn]
+tags: [教程]
 description: how to build vpn or vps by youself
+categories: 方法总结
 ---
 之前实习的时候想着有需要翻墙的时候用着公司的vpn就足够了
 但是随着马上要去工作，还有对一些国外资源的需求（资源你懂的）

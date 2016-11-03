@@ -1,8 +1,10 @@
 ---
 title: HTTP缓存及众多的web储存概念之小整理
 date: 2016-08-12 01:46:57
-tags: [javascript,html]
+tags: [HTTP]
 description: this is a article for my way of studying front-end
+cover: /images/2.jpg
+categories: 学习感悟
 ---
 
 缓存对于一个网站来说非常重要，可以提高网站性能，减少冗余的数据传输，增加服务器负担，web存储则给浏览器提供了更加强大的保存文件的接口。

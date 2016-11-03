@@ -1,8 +1,10 @@
 ---
 title: ES5和ES6中对于继承的实现方法
 date: 2016-07-23 23:32:17
-tags: [javascript]
+tags: [JavaScript]
 description: develop cross-platform GUI app with electron
+cover: /images/3.jpg
+categories: 学习感悟
 ---
 
 在ES5继承的实现非常有趣的，由于没有传统面向对象类的概念，Javascript利用原型链的特性来实现继承，这其中有很多的属性指向和需要注意的地方。
@@ -137,19 +139,15 @@ class VersionedArray extends Array {
     this.splice(0, this.length, ...this.history[this.history.length - 1]);
   }
 }
-
 var x = new VersionedArray();
-
 x.push(1);
 x.push(2);
 x // [1, 2]
 x.history // [[]]
-
 x.commit();
 x.history // [[], [1, 2]]
 x.push(3);
 x // [1, 2, 3]
-
 x.revert();
 x // [1, 2]
 ```
