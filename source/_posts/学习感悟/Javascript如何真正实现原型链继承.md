@@ -3,7 +3,6 @@ title: Javascript如何真正实现原型链继承
 date: 2016-9-29 21:32:17
 tags: [JavaScript,翻译]
 description: work
-cover: /images/1.jpg
 categories: 学习感悟
 ---
 **本文由我翻译在众成翻译平台，[文章地址](http://www.zcfy.cc/article/javascript-how-prototypal-inheritance-really-works-1337.html)**

@@ -3,7 +3,6 @@ title: JavaScript关键概念理解之闭包
 date: 2016-07-10 21:59:48
 tags: [JavaScript]
 description: none
-cover: /images/2.jpg
 categories: 学习感悟
 ---
 

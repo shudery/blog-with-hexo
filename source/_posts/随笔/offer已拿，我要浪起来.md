@@ -3,7 +3,6 @@ title: offer已拿，我要浪起来
 date: 2016-09-30
 tags: [随笔]
 categories: 随笔
-cover: /images/WechatIMG26.jpeg
 ---
 在找工作的第二个月月末终于收到了大厂的offer了，不枉这段时间的努力准备啊，终于可以松口气啦啦。
 

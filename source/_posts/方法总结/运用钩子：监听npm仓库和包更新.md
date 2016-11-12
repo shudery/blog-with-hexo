@@ -3,7 +3,6 @@ title: 运用钩子：监听npm仓库和包更新
 date: 2016-11-07
 tags: [工具]
 categories: 学习方法
-cover: /images/7.jpeg
 ---
 **本文由我翻译在众成翻译平台，[文章地址](http://www.zcfy.cc/article/introducing-hooks-get-notifications-of-npm-registry-and-package-changes-as-they-happen-1610.html)**
 
