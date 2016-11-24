@@ -71,10 +71,13 @@ hexo new [fileStyle] [fileName]
 的方式来生成文件，后者会以scaffolds中对应的fileStyle的形式，
 给你生成一个fileName的md文件，里面会包括一些开头的默认字段，
 会方便记录一些文章的信息，我们还可以在[官网主题](https://hexo.io/themes/)里找一个更加符合心意的主题，
-然后直接git clone/ctrl+c 到我们hexo/themes下面，
-然后在hexo/_config.yml中的 theme:landscape 改为你下载好的主题名，
-然后你会发现主题文件夹里还有一个_config.yml 用来修改主题的一些相关配置，
+然后直接`git clone/ctrl+c` 到我们`hexo/themes`下面，
+然后在`hexo/_config.yml`中的 `theme:landscape` 改为你下载好的主题名，
+然后你会发现主题文件夹里还有一个`_config.yml` 用来修改主题的一些相关配置，
 你可以参考你下载主题的github,或者官网的介绍来设置这些配置~
+
+**由于无法忍受github服务器的延迟，目前已经将git远程仓库改为[coding.net](http://coding.net)了，这是一个国内的git仓库托管服务商，主要面向私密项目，和github一样同样有pages的博客搭建服务，只要在配置文件修改一下deploy地址即可**
+
 ### 完善博客
 最后你可以根据自己的喜好和需求为博客添加一些你喜欢的挂件和工具，
 我自己加了多说评论，百度统计，还有就是换了一个逼格高一点的域名，

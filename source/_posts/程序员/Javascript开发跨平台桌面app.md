@@ -57,34 +57,22 @@ npm install --save-dev electron-prebuilt
 ```
 ### 3、新建main.js
 生成一个入口的js文件来作为控制GUI窗口的主进程程序
+
 ```
 const electron = require('electron');
-// 控制应用生命周期的模块
 const {app} = electron;
 // 创建本地浏览器窗口的模块
 const {BrowserWindow} = electron;
-// 指向窗口对象的一个全局引用
 let win;
-
 function createWindow() {
-
- // 创建一个新的浏览器窗口
   win = new BrowserWindow({ width: 360, height: 572 });
- // 并且装载应用的index.html页面,注意路径
   win.loadURL('file://'+__dirname+'/html/index.html');
- // 当窗口关闭时调用的方法
-
   win.on('closed', () => {
-  // 解除窗口对象的引用，通常而言如果应用支持多个窗口的话，你会在一个数组里
   // 存放窗口对象，在窗口关闭的时候应当删除相应的元素。
   win = null;
   });
 }
-
-// 当Electron完成初始化并且已经创建了浏览器窗口，则该方法将会被调用。
-// 有些API只能在该事件发生后才能被使用。
 app.on('ready', createWindow);
-
 // 当所有的窗口被关闭后退出应用
 app.on('window-all-closed', () => {
   if (process.platform !== 'darwin') {
@@ -96,9 +84,9 @@ app.on('activate', () => {
     createWindow();
   }
 });
-// 在这个文件后面你可以直接包含你应用特定的由主进程运行的代码。
-// 也可以把这些代码放在另一个文件中然后在这里导入。
 ```
+在这个文件后面你可以直接包含你应用特定的由主进程运行的代码，也可以把这些代码放在另一个文件中然后在这里导入。
+
 ### 4、index.html
 GUI窗口（web页面）渲染的Html文件
 ```

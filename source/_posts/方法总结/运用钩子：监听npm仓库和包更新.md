@@ -2,9 +2,9 @@
 title: 运用钩子：监听npm仓库和包更新
 date: 2016-11-07
 tags: [工具]
-categories: 学习方法
+categories: 方法总结
 ---
-**本文由我翻译在众成翻译平台，[文章地址](http://www.zcfy.cc/article/introducing-hooks-get-notifications-of-npm-registry-and-package-changes-as-they-happen-1610.html)**
+**本文由我翻译在[众成](http://www.zcfy.cc/claim)翻译平台，[文章地址](http://www.zcfy.cc/article/introducing-hooks-get-notifications-of-npm-registry-and-package-changes-as-they-happen-1610.html)**
 
 今天我很高兴地给大家介绍一种简单强大的方法，可以用于追踪npm仓库变更，构建自己的开发环境的工具：钩子。
 

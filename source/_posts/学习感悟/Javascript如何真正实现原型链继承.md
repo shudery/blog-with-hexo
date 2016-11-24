@@ -5,7 +5,7 @@ tags: [JavaScript,翻译]
 description: work
 categories: 学习感悟
 ---
-**本文由我翻译在众成翻译平台，[文章地址](http://www.zcfy.cc/article/javascript-how-prototypal-inheritance-really-works-1337.html)**
+**本文由我翻译在[众成](http://www.zcfy.cc/claim)翻译平台，[文章地址](http://www.zcfy.cc/article/javascript-how-prototypal-inheritance-really-works-1337.html)**
 
 
 在网上的很多地方我们可以得知javascript是基于原型链继承的，其实Javascript只提供一种特殊的方法来实现原型链继承，就是通过new操作。但是很多解读都令人难以理解，这篇文章旨在说明到底什么是原型链继承以及如何在Javascript中真正地运用它。

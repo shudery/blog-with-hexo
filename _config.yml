@@ -70,5 +70,6 @@ theme: aero-dual
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:shudery/shudery.github.io.git
-  branch: master
+  # repo: git@github.com:shudery/shudery.github.io.git
+  repo: git@git.coding.net:shudery/shudery.git
+  branch: coding-pages
