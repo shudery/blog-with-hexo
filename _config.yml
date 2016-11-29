@@ -71,11 +71,15 @@ theme: aero-dual
 #RSS订阅
 plugin:
 - hexo-generator-feed
+- hexo-generator-baidu-sitemap
 #Feed Atom
 feed:
 type: atom
 path: atom.xml
 limit: 20
+#sitemap
+baidusitemap:
+  path: baidusitemap.xml
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
