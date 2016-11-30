@@ -25,10 +25,8 @@ categories: 学习感悟
 function getProperty(obj, prop) {
   if (obj.hasOwnProperty(prop))
     return obj[prop]
-
   else if (obj.__proto__ !== null)
     return getProperty(obj.__proto__, prop)
-
   else
     return undefined
 }
@@ -44,7 +42,6 @@ var Point = {
   y: 0,
   print: function () { console.log(this.x, this.y); }
 };
-
 var p = {x: 10, y: 20, __proto__: Point};
 p.print(); // 10 20
 ```
@@ -61,7 +58,6 @@ function Point(x, y) {
 Point.prototype = {
   print: function () { console.log(this.x, this.y); }
 };
-
 var p = new Point(10, 20);
 p.print(); // 10 20
 ```
@@ -83,13 +79,13 @@ new操作符创建函数F和参数arguments : new F(arguments...)，进行简单
 现在我们明白new操作符做了什么，我们可以在Javascript中实践它。
 
 ```
-     function New (f) {
-/*1*/  var n = { '__proto__': f.prototype };
-       return function () {
-/*2*/    f.apply(n, arguments);
-/*3*/    return n;
-       };
-     }
+function New (f) {
+ var n = { '__proto__': f.prototype };
+ return function () {
+   f.apply(n, arguments);
+   return n;
+ };
+}
 ```
 
 一个小测试看看它如何运行。
@@ -102,11 +98,9 @@ function Point(x, y) {
 Point.prototype = {
   print: function () { console.log(this.x, this.y); }
 };
-
 var p1 = new Point(10, 20);
-p1.print(); // 10 20
-console.log(p1 instanceof Point); // true
-
+p1.print(); // 10 20  
+console.log(p1 instanceof Point); // true    
 var p2 = New (Point)(10, 20);
 p2.print(); // 10 20
 console.log(p2 instanceof Point); // true
@@ -141,7 +135,6 @@ var Point = {
   y: 0,
   print: function () { console.log(this.x, this.y); }
 };
-
 var p = Object.create(Point);
 p.x = 10;
 p.y = 20;
