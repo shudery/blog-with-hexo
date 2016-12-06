@@ -1,7 +1,7 @@
 ---
 title: 用hexo搭建一个博客
 date: 2016-05-05 12:00:33
-tags: [教程]
+tags: [记录,工具]
 description: 如何用hexo来搭建一个博客
 categories: 方法总结
 ---

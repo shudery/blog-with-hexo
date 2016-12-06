@@ -1,7 +1,7 @@
 ---
 title: chrome扩展程序入门手记
 date: 2016-06-14 23:08:15
-tags: [JavaScript]
+tags: [记录,web前端]
 description: share my record after learning how to build a plugin for chrome.
 categories: 方法总结
 ---

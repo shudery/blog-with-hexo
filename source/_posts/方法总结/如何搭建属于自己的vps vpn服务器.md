@@ -1,7 +1,7 @@
 ---
 title: 搭建属于自己的vpn服务器
 date: 2016-06-10 21:59:48
-tags: [教程]
+tags: [记录,工具]
 description: how to build vpn or vps by youself
 categories: 方法总结
 ---

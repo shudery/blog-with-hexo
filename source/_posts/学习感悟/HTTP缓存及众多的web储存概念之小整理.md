@@ -1,7 +1,7 @@
 ---
 title: HTTP缓存及众多的web储存概念之小整理
 date: 2016-08-12 01:46:57
-tags: [HTTP]
+tags: [web前端]
 description: this is a article for my way of studying front-end
 categories: 学习感悟
 ---
