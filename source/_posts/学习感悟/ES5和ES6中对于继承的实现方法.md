@@ -61,7 +61,7 @@ function Sub(){
 var obj = new Sub();
 obj.flag = flase;
 var obj_2 = new Sub();
-console.log(obj.flag)  //依然是true，不会相互影响
+console.log(obj_2.flag)  //依然是true，不会相互影响
 ```
 结合借用构造函数和原型链的方法，可以实现比较完美的继承方法，可以称为组合继承：
 ```
