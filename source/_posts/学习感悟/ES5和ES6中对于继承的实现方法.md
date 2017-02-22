@@ -45,7 +45,7 @@ function Sub(){
 }
 Sub.prototype = new Super;
 var obj = new Sub();
-obj.flag = flase;  //修改之后，由于是原型上的属性，之后创建的所有实例都会受到影响
+obj.flag = flase;  /* 修改之后，由于是原型上的属性，之后创建的所有实例都会受到影响 */
 var obj_2 = new Sub();
 console.log(obj.flag)  //false；
 ```
@@ -56,8 +56,8 @@ function Super(){
     this.flag = true;
 }
 function Sub(){
-    Super.call(this)  //如果父类可以需要接收参数，这里也可以直接传递
-}
+    Super.call(this);  /* 如果父类可以需要接收参数，这里也可以直接传递 */
+};
 var obj = new Sub();
 obj.flag = flase;
 var obj_2 = new Sub();
@@ -69,11 +69,11 @@ function Super(){
     this.flag = true;
 }
 Super.prototype.getFlag = function(){
-    return this.flag;     //继承方法
+    return this.flag;     /* 继承方法 */
 }
 function Sub(){
     this.subFlag = flase
-    Super.call(this)    //继承属性
+    Super.call(this)    /* 继承属性 */
 }
 Sub.prototype = new Super;
 var obj = new Sub();
@@ -98,7 +98,7 @@ ES6封装了class，extends关键字来实现继承，内部的实现原理其�
 ```
 class ColorPoint extends Point {
   constructor(x, y, color) {
-    super(x, y); // 等同于parent.constructor(x, y)
+    super(x, y); /* 等同于parent.constructor(x, y) */
     this.color = color;
   }
   toString() {
@@ -113,7 +113,7 @@ ES6中Class充当了ES5中，构造函数在继承实现过程中的作用
 一个继承语句同时存在两条继承链：一条实现属性继承，一条实现方法继承。
 ```
 class A extends B {}
-A.__proto__ === B;  //继承属性
+A.__proto__ === B;  /* 继承属性 */
 A.prototype.__proto__ === B.prototype;  //继承方法
 ```
 ES6的子类的`__proto__`是父类，子类的原型的`__proto__`是父类的原型
