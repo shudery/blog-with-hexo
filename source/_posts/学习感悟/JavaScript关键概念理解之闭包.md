@@ -1,7 +1,7 @@
 ---
 title: JavaScript关键概念理解之闭包
 date: 2016-07-10 21:59:48
-tags: [JavaScript]
+tags: [JavaScript编程]
 description: none
 categories: 学习感悟
 ---

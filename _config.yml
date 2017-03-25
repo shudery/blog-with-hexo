@@ -4,8 +4,8 @@
 
 # Site
 title: Daguo's blog
-subtitle: '达哥的博客'
-# subtitle: 'Hello guy, welcome!'
+# subtitle: '达哥的博客'
+subtitle: 'Hello guy, welcome!'
 description: 'Personal blog which build by hexo from shudery/daguo'
 author: Daguo
 language:

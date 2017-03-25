@@ -1,7 +1,7 @@
 ---
 title: javaScript的对象构造和原型链继承
 date: 2016-04-15 17:55:58
-tags: [JavaScript]
+tags: [JavaScript编程]
 description: javascript的对象构造和原型链继承
 categories: 学习感悟
 ---

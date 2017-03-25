@@ -1,7 +1,7 @@
 ---
 title: 简易的RSS格式输出工具
 date: 2016-11-20
-tags: [JavaScript,web前端]
+tags: [JavaScript编程,web前端]
 categories: 方法总结
 ---
 RSS即简易信息聚合，当一个网站发布一个RSS文件后，这个RSS-Feed中包含的信息就能直接被其他站点调用，而且由于这些数据都是标准的XML格式，所以也能在其他的终端和服务中使用，是一种描述和同步网站内容的格式。

@@ -1,7 +1,7 @@
 ---
 title: ES5和ES6中对于继承的实现方法
 date: 2016-07-23 23:32:17
-tags: [JavaScript]
+tags: [记录,JavaScript编程]
 description: develop cross-platform GUI app with electron
 categories: 学习感悟
 ---

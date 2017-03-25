@@ -1,7 +1,7 @@
 ---
 title: Javascript开发跨平台桌面app
 date: 2016-06-23 23:32:17
-tags: [JavaScript]
+tags: [JavaScript编程]
 description: develop cross-platform GUI app with electron
 categories: 程序员
 ---

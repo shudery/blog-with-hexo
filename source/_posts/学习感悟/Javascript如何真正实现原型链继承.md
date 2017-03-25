@@ -1,7 +1,7 @@
 ---
 title: JavaScript如何真正实现原型链继承
 date: 2016-9-29 21:32:17
-tags: [JavaScript,翻译]
+tags: [JavaScript编程,翻译]
 description: work
 categories: 学习感悟
 ---
