@@ -73,7 +73,7 @@ theme: aero-dual
 
 # Extensions
 ## Plugins: http://hexo.io/plugins/
-#RSS订阅
+#RSS订阅`
 plugin:
 - hexo-generator-feed
 - hexo-generator-baidu-sitemap
@@ -92,4 +92,5 @@ deploy:
   type: git
   repo: git@github.com:shudery/shudery.github.io.git
   # repo: git@git.coding.net:shudery/shudery.git
-  branch: coding-pages
+  branch: master
+  # branch: coding-pages
