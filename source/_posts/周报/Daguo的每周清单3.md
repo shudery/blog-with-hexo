@@ -1,0 +1,46 @@
+---
+title: Daguo的每周清单：第三期
+date: 2018-02-03 23:32:17
+tags: [记录,技术]
+description: develop cross-platform GUI app with electron
+categories: 周报
+---
+
+周二晚上被临时通知去趟北京出差，参加个研讨会，去了三天，原本的工作计划和学习计划都被打乱。虽然还没去过北京，有点小兴奋，但是因为太突然，什么装备都没有准备，在北京停留几天冻得够呛。还有，北京的糖葫芦是真的咯牙。出差回来后去参加小部门年会，破天荒地抽到一个千元红包，真是本命年行大运啊~
+
+<!--more-->
+
+## 前端基础
+- [扒一扒小程序的坑](https://www.liayal.com/article/5a6b07137de5e93eee4137ca?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)
+> 每次逛社区，基本上所有带有坑字的我都会看，很奇妙，做一个东西踩过的坑，很可能是作者多个下午踩出来的，读起来有吸取别人精华的感觉。如果有些坑你也踩过的话，很容易引发共鸣，然后再重新思考问题的原因。小程序其实还是有不少坑的，而且很多是小程序特有，不深入源码也不清楚为什么会出现那样的情况，这种坑往往特别浪费时间。
+
+- [VUE使用中踩过的坑](https://segmentfault.com/a/1190000013008420)
+> 踩坑总结再来一发，偏基础，很多都知道了，但还是可以复习一遍。
+
+- [一百行js，实现极简头脑王者辅助](https://juejin.im/post/5a6f1c0f518825733f6e4436?utm_medium=fe&utm_source=weixinqun&from=timeline)
+> 之前愚人节做过一次拦截微信web端的人物头像地址，改成一张提示今天是愚人节不要受骗的图，那个时候没有直接在微信做，应该手机端做抓包的配置没搞好。这个实践结合抓包和爬虫，快速搜索答题选项在百度搜索问题后出现的次数，来指示正确的选项，挺好玩的。
+
+## JavaScript生态
+- [前端AI之路: KerasJS初探](https://mp.weixin.qq.com/s?__biz=MzAwNTAzMjcxNg==&mid=2651425182&idx=1&sn=f34e85da64ec0319831f3d6b08ff16b0&chksm=80dff7fdb7a87eeb5b8dd766ada29b3c74102759f6f0ebf2370a199fb15110b27b2be4704e86&mpshare=1&scene=1&srcid=02029M5pSRPbnn5D2dm5Dkx1#rd)
+> JS如今攻陷多个领域，很多前沿技术都有涉水，但是在人工智能只一块，python同样带有脚本的优势，而且在第三方库的支持上是Node远远不能及的。这个项目通过Python训练出来的神经网络模型，提供给nodejs识别圣诞老人头像，算是将Nodejs强行AI了一下，还是挺有意思的。
+
+## 技术视野
+- [多研究些架构，少谈些框架](https://mp.weixin.qq.com/s?__biz=MjM5NTEwMTAwNg==&mid=2650213960&idx=2&sn=add902d089f977fc2fd3562d643971e9&chksm=befe0e698989877f2e2c5a34e1d39bb5c96aa731421c1c29f4144265798656cd1b8fac3e6b25&mpshare=1&scene=1&srcid=01303xeAjnTQKkxOpUZaGI0C#rd)
+> 在外包团队开发项目中，前端微服务可以节约成本，但是一个真正玩转起微服务的开发项目，会是一个怎样的工程水准呢？
+
+- [How JavaScript Works？—— Event Loop](https://www.w3ctrain.com/2018/02/01/javascript-event-loop/)
+> 被这个Hexo theme吸引了，然后看了一下写得很好，关于Javascript 的Event loop深入了解后可以解决很多单线程问题。
+
+## 工程实践
+- [微信小程序开发最佳实践](https://github.com/skyFi/weapp-starter)
+> 重点关注小程序生态下，代码结构和项目开发和语法组织与其他项目的区别。
+
+- [从放弃迅雷和IDM到自己开发下载工具](https://segmentfault.com/a/1190000012345156)
+> 动手开发下载工具，下片从此不再限流。
+
+## 总结&吐槽
+  有许多写了多年代码的互联网民工都已经非常厌倦写代码了，我常常思考，我以后会不会也这样子。现在因为还有很多除了做技术实现以外的事情要做，要管理外包团队，要给上级写材料，要给各个团队做支撑，确实很少有时间写代码了。
+  
+  我现在反而非常渴望有写代码的时间，那就是我的全部或者大部分的工作内容，每个技术实现背后的技术我都想好好的研究透，然后灵活运用在各个技术领域，做到融汇贯通，我想要实现这样都是一辈子的事情吧。
+  
+  做各种技术尝试和实现，不要做一些重复的燃料加工，想着如何漂亮地coding，怎么做个engineer而不是coder，想着怎样更好地实现那些重复的代码行和它内在的原理，这才是有意思的事情啊。这是我给自己的忠告，有时厌倦不是它不好，或者你不爱了，而是你不曾真正感受它的魅力。
