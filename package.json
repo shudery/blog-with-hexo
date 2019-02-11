@@ -18,6 +18,16 @@
     "hexo-renderer-stylus": "^0.3.1",
     "hexo-server": "^0.2.0"
   },
+  "yuqueConfig": {
+    "postPath": "source/_posts/yuque",
+    "cachePath": "yuque.json",
+    "adapter": "hexo",
+    "concurrency": 5,
+    "baseUrl": "https://www.yuque.com/api/v2",
+    "login": "daguo",
+    "repo": "post",
+    "mdNameFormat": "title"
+  },
   "devDependencies": {
     "zombie": "^5.0.5"
   }
